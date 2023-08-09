@@ -1,0 +1,50 @@
+.booklist {
+  display: flex;
+  justify-content: center;
+  background: #f1f5f8;
+  width: 100%;
+  height: fit-content;
+  margin: 20px 0px;
+}
+img {
+  width: 100%;
+  margin: 10px 0px;
+}
+.book-cont {
+  width: 320px;
+  margin: 0px 20px 20px 20px;
+  border-radius: 8px;
+  padding: 10px 0px;
+  text-align: center;
+  background: white;
+  position: relative;
+}
+h4 {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 1rem;
+  font-weight: bold;
+}
+h6 {
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.61);
+  font-size: 0.8rem;
+}
+.tag {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgb(199, 12, 12);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 25px;
+  font-size: 0.8rem;
+  border-radius: 8px 0px 8px 0px;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
